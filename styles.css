@@ -1,0 +1,129 @@
+/* sobre.css */
+
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo */
+body {
+    background-color: #1b1b1b;
+    font-family: 'MonumentExtended-Black';
+    src: url('fonts/MonumentExtended-Black.woff2') format('woff2');
+    line-height: 1.6;
+    color: #949494;
+
+    
+}
+
+/* Estilo do menu */
+.menu {
+    background-color: #333;
+    padding: 10px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li {
+    margin: 0 15px;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo da seção sobre */
+.sobre {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.sobre h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.sobre p {
+    margin-bottom: 15px;
+}
+
+.sobre ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+   
+    width: 100%;
+    bottom: 0;
+}
+
+.cortop{
+    background-color: #1b1b1b;
+}
+/* Para centralizar a imagem na tela */
+.Slider {
+    display: flex;
+    justify-content: center; /* Alinha horizontalmente */
+    align-items: center; /* Alinha verticalmente */
+    height: 10%; /* Ocupa 100% da altura da viewport */
+}
+
+.Slide {
+    text-align: center; /* Opcional: Centraliza o conteúdo dentro do Slide */
+}
+
+.Slide img {
+    max-width: 130%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+}
+.container {
+    display: flex; /* Define o contêiner como um flexbox */
+    gap: 20px; /* Espaçamento entre os cards */
+    flex-wrap: wrap; /* Permite que os cards quebrem linha se necessário */
+    flex-direction: column;
+}
+
+/* Estilo para cada card */
+.card {
+    background-color: #1b1b1b;
+    border: 3px solid #242424;
+    border-radius: 8px; /* Arredonda os cantos dos cards */
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra para dar um efeito de elevação */
+    flex: 1; /* Permite que os cards cresçam igualmente */
+    max-width: 600px; /* Define uma largura máxima para os cards */
+}
+
+/* Estilo para o título dos cards */
+.card h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+/* Estilo para o parágrafo dos cards */
+.card p {
+    color: #666;
+}
+.Ingressos{
+    color: white;
+}
